@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/929999c4ed.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/929999c4ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full-Stack Developer</p>
+                <h1>Hi, I'm <span>Varun</span><br></h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------- about -------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>Hi, welcome to my profile, myself VarunKumar C. I am an enthusiastic Post Graduate holder with the passion for coding and desire to contribute to exciting projects, with my strong skills in collaboration, communication and development.
+                        I am seeking a programming role with valuable organization</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br> HTML, CSS, JS</li>
+                            <li><span>Python</span><br>Basics, OOP's, Advance</li>
+                            <li><span>Database</span><br>Oracle SQL</li>
+                            <li><span>Framework</span><br>Django</li>
+                            <li><span>Computer Networking</span><br>Basics</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>High School</span><br>completed highschool at Mandavya english medium high school, Mandya (2015)</li>
+                            <li><span>PU</span><br>PES-Pre university college, Mandya (2017)</li>
+                            <li><span>Graduation</span><br>BCA - Government (autonomous) college, Mandya (2020)</li>
+                            <li><span>Post-Graduation</span><br>MCA - Vidya Vikas Institute Of Engeenering and Technology, Mysore (2022)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------- Projects ----------------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">PROJECTS</h1>
+            <div class="project-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Technology</h2>
+                    <p>Here i have created Front-End projects based on HTML, CSS, and JS. To View Project and to know more.. click below</p>
+                    <a href="webtechnology.html">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>PYTHON</h2>
+                    <p>Here i have created some common and basic python projects using some important concepts in python. To View Project and to know more.. click below</p>
+                    <a href="python.html">learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-d"></i>
+                    
+                    <h2>Django</h2>
+                    <p>Here i have created some mini django projects . To View Project and to know more.. click below</p>
+                    <a href="django.html">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------- certificates ----------------->
+<!-- 
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">CERTIFICATIONS</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/proj-to-do.png" alt="no img" height="300px" width="50px">
+                    <div class="layer">
+                        <h3>Web Technology</h3>
+                        <a href=""><i class="fa-solid fa-download"></i></a><br>
+                        <p>Download Certificate</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/proj-weather.jpg" alt="no img" height="300px" width="50px">
+                    <div class="layer">
+                        <h3>Python</h3>
+                        <a href=""><i class="fa-solid fa-download"></i></a><br>
+                        <p>Download Certificate</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/proj-empty.jpg" alt="no img" height="300px" width="50px">
+                    <div class="layer">
+                        <h3>Django</h3>
+                        <a href=""><i class="fa-solid fa-download"></i></a><br>
+                        <p>Download Certificate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!----------------------- contact ---------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> CONTACT ME</h1>
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:varunkumarc2000@gmail.com"> varunkumarc2000@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:7975195248">7975195248</a></p>
+                    <div class="social-icons">
+                        <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/v.a.r.u.n_kumar/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=7975195248" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/varun-kumar-381a671ba" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/VARUNKUMAR_C (CV).pdf" download class="btn btn2">Download CV</a><br>
+                    <a href="images/certificate.pdf" download class="btn btn3">Download certificates</a>
+                </div>
+                <div class="contact-right">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 My Portfolio. All rights reserved.
+    </footer>
+
+      
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+</body>
+</html>
